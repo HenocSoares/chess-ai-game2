@@ -13,9 +13,9 @@ class Game:
         for row in range(ROWS):
             for col in range(COLS):
                 if (row + col) % 2 == 0:
-                    color = (234, 235, 200) #light green
+                    color = (234, 235, 200) #light red
                 else:
-                    color = (119, 154, 88) #dark green
+                    color = (119, 154, 88) #dark red
                 
                 rect = (col * SQSIZE, row * SQSIZE, SQSIZE, SQSIZE) #rectangle in py: tuple that has 4 params | x axis, y axis, last 2 are: widht + height
                 
